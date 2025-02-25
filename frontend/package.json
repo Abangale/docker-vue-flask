@@ -1,0 +1,14 @@
+{
+    "name": "vue-docker",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vite"
+    },
+    "dependencies": {
+      "vue": "^3.2.0"
+    },
+    "devDependencies": {
+      "vite": "^4.0.0"
+    }
+  }
+  
