@@ -16,5 +16,5 @@ COPY . .
 # Expose the port Vue runs on
 EXPOSE 5173
 
-# Start Vue app and make it accessible from outside Docker
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+# Start Vue app
+CMD ["npm", "run", "dev"]
