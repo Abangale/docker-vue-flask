@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port Vue runs on
-EXPOSE 8080
+EXPOSE 5173
 
 # Start Vue app
 CMD ["npm", "run", "dev"]
